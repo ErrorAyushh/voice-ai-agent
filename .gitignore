@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.wav
+*.mp3
+*.m4a
+*.ogg
+output/*
+!output/.gitkeep
