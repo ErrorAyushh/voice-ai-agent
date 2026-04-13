@@ -123,17 +123,22 @@ Go to `http://localhost:8501`
 voice-agent/
 
 ├── app.py          # UI and main pipeline
+
 ├── stt.py          # Speech-to-text module
+
 ├── intent.py       # Intent classification
+
 ├── tools.py        # Tool execution
+
 ├── requirements.txt
+
 └── output/         # All generated files land here
 
 ---
 
 ## Hardware notes
 
-I'm running this on a CPU-only machine. Whisper via HuggingFace transformers was taking 30-40 seconds per clip which was unusable. Switched to faster-whisper with the base model in int8 quantized mode — brings it down to 3-6 seconds with the same accuracy. Ollama with llama3.2 runs fine on 8GB RAM, intent classification takes about 2-4 seconds.
+I'm running this on a CPU-only machine. Whisper via HuggingFace transformers was taking 30-40 seconds per clip which was unusable. Switched to faster-whisper with the base model in int8 quantized mode  brings it down to 3-6 seconds with the same accuracy. Ollama with llama3.2 runs fine on 8GB RAM, intent classification takes about 2-4 seconds.
 
 ---
 
