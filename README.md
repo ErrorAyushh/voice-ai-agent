@@ -28,11 +28,17 @@ You speak (or type), and the agent detects your intent and executes the right ac
 
 ## How it works
 Voice input (mic or uploaded file)
+
 ↓
+
 Speech-to-Text using faster-whisper (runs locally on CPU)
+
 ↓
+
 Intent detection using Ollama + llama3.2 (local LLM)
+
 ↓
+
 Tool execution based on detected intent
 ↓
 Result displayed in Streamlit UI
