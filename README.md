@@ -1,6 +1,6 @@
 # Voice-Controlled Local AI Agent
 
-A local AI agent that takes voice input, figures out what you're asking for, and actually does it — creates files, writes code, summarizes text, or just chats. Everything runs on your machine. Nothing goes to any external server.
+A local AI agent that takes voice input, figures out what you're asking for, and actually does it  creates files, writes code, summarizes text, or just chats. Everything runs on your machine. Nothing goes to any external server.
 
 Built for the Mem0 AI/ML & Generative AI Developer Intern Assignment.
 
