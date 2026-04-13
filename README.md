@@ -121,6 +121,7 @@ Go to `http://localhost:8501`
 
 ## Project structure
 voice-agent/
+
 ├── app.py          # UI and main pipeline
 ├── stt.py          # Speech-to-text module
 ├── intent.py       # Intent classification
